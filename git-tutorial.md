@@ -26,3 +26,7 @@ git request-pull　プルリクエスト：変更依頼
 git remote　リモートレポジトリの設定
 git branch　ブランチの作成
 git mergeブランチの統合
+
+GitHub Flowもgit-flowと同様にブランチ戦略の1つであり、その名の通りGitHubで利用されているフローである。
+GitHub Flowはメインのmasterブランチと機能開発のためのfeatureブランチの２つのみのシンプルな構成である。
+git-flowにない特徴として、Pull Requestを使うという点と、masterブランチは常にデプロイ可能という点が挙げられる。
